@@ -7,4 +7,4 @@
 
 - Uma aplicação front-end Angular integrará com a API!
 
-- Aula 1 - O mercado de programação com .NET e suas oportunidades (nacionais e internacionais)
+# Aula 1 - O mercado de programação com .NET e suas oportunidades (nacionais e internacionais)
