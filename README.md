@@ -1,4 +1,4 @@
-### Jornada NET Direto ao Ponto 8.0
+# Jornada NET Direto ao Ponto 8.0
 
 - Linguagem C# e framework .NET 7
 - Programação Orientada a Objetos
@@ -7,4 +7,6 @@
 
 - Uma aplicação front-end Angular integrará com a API!
 
-# Aula 1 - O mercado de programação com .NET e suas oportunidades (nacionais e internacionais)
+### Aula 1 - O mercado de programação com .NET e suas oportunidades (nacionais e internacionais)
+
+### Aula 2 - Fundamentos de C# e Programação Orientada a Objetos
