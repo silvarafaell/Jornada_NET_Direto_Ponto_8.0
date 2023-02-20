@@ -35,7 +35,17 @@ namespace DevEncurtaUrl.API.Controllers
             return Ok(link);
         }
 
+        /// <summary>
+        /// Cadastrar um link encurtado
+        /// </summary>
+        /// <remarks>
+        /// { "title": "ultimo-artigo Blog", "destinationLink" : "https://www.luisdev.com.br/2023/02/05/atributos-no-c-como-criar-e-aplicar-em-seu-projeto" }
+        /// </remarks>
+        /// <param name="model">Dados de link</param>
+        /// <returns>Objeto recém-criado</returns>
+        /// <response code="201">Sucesso!</response>
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         public IActionResult Post(AddOrUpdateShortenedLinkModel model)
         {
             var link = new ShortenedCustomLink(model.Title, model.DestinationLink);
