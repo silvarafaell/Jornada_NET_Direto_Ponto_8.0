@@ -10,3 +10,11 @@
 ### Aula 1 - O mercado de programação com .NET e suas oportunidades (nacionais e internacionais)
 
 ### Aula 2 - Fundamentos de C# e Programação Orientada a Objetos
+
+### Aula 3 - APIs com ASP.NET Core e EF Core
+- dotnet new webapi
+- dotnet tool install --global dotnet-ef
+- dotnet ef migrations add PrimeiraMigration -o Persistence/Migrations
+- dotnet ef database update
+
+### Aula 4 - Logs, Swagger, e Publicação na nuvem
